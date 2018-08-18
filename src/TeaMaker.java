@@ -26,11 +26,19 @@ class TeaBag {
 		return flavor;
 	}
 
+	public void MINT() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
 
 class Kettle {
 
 	private Water water = new Water();
+
+		// TODO Auto-generated constructor stub
+	
 
 	Water getWater() {
 		return water;

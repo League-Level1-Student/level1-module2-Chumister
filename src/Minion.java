@@ -1,17 +1,14 @@
 
 public class Minion {
 	String name;
-	int numeye;
+	int eyes;
 	String color;
 	String Master;
-	public Minion(String name, int numeye, String color, String Master){
+	public Minion(String name, int eyes, String color, String Master){
 	this.name=name;
-	this.numeye=numeye;
+	this.eyes=eyes;
 	this.color=color;
 	this.Master=Master;
-	}
-	public String getMaster() {
-		return Master;
 	}
 	public String getColor() {
 		return color;
@@ -19,11 +16,16 @@ public class Minion {
 public String getName() {
 	return name;
 }
-public int getNumeye() {
-	return numeye;
+public int getEyes() {
+	return eyes;
 }
 public void setColor(String color) {
 	this.color = color;
 }
+	public void setMaster(String Master) {
+this.Master = Master;
+}		// TODO Auto-generated method stub
+	public String getMaster() {
+		return Master;
+	}}
 
-}
